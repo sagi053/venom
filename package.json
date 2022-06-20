@@ -28,7 +28,7 @@
     "start": "npm run build:venom & tsc app.ts && node app.js",
     "test": "echo \"No tests yet\"",
     "watch": "concurrently \"tsc -w\" \"nodemon dist/index.js\"",
-    "prepare": "echo \"Now I run prepare\" && exit 1"
+    "prepare": "npm run build"
   },
   "husky": {
     "hooks": {
