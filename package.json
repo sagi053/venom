@@ -67,6 +67,8 @@
     ".env",
     "dist/*",
     "src/*",
+    "tsconfig.json",
+    "typedoc.json",
     "package.json",
     "CHANGELOG.md",
     "LICENSE",
