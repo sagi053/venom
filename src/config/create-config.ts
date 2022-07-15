@@ -195,7 +195,7 @@ export const defaultOptions: CreateConfig = {
   multidevice: true,
   folderNameToken: 'tokens',
   mkdirFolderToken: '',
-  headless: true,
+  headless: false,
   devtools: false,
   useChrome: true,
   debug: false,
